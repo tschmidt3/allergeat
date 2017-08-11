@@ -8,8 +8,14 @@
 .jumbotron {
   background-color: #7CB342;
   text-align: center; }
+  .jumbotron .btn {
+    background: #001064;
+    color: #FFFFFF; }
+  .jumbotron #jbutton {
+    color: #FFFFFF;
+    margin-bottom: 10px; }
   .jumbotron h1 {
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 25px; }
   .jumbotron h2 {
     padding-bottom: 10px; }

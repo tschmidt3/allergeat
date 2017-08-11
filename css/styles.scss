@@ -1,6 +1,8 @@
 
-$background-dark: #283593;
+$background: #283593;
+$background-dark: #001064;
 $nav-text: #ffffff;
+$btncolor: #FFFFFF;
 $jumbotronBackground: #7CB342;
 
 // Height variables
@@ -12,7 +14,7 @@ $carousel-item-height: 300px;
 }
 
 .navbar-inverse {
-    background-color: $background-dark;
+    background-color: $background;
     color: $nav-text;
 }
 
@@ -23,8 +25,16 @@ $carousel-item-height: 300px;
 .jumbotron {
     background-color: $jumbotronBackground;
     text-align: center;
+    .btn {
+        background: $background-dark;
+        color: $btncolor;
+    }
+    #jbutton{
+        color: $btncolor;
+        margin-bottom: 10px;
+    }
     h1 {
-        padding-top: 75px;
+        padding-top: 50px;
         padding-bottom: 25px;
     }
     h2 {
