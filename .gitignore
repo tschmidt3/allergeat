@@ -1,2 +1,4 @@
 node_modules
 gulpfile.js
+.DS_store
+package.json

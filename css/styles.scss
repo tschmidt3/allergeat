@@ -1,0 +1,33 @@
+
+$background-dark: #283593;
+$nav-text: #ffffff;
+$jumbotronBackground: #7CB342;
+
+// Height variables
+$carousel-item-height: 300px;
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+	margin:0px auto;
+	padding: $pad-up-dn $pad-left-right;
+}
+
+.navbar-inverse {
+    background-color: $background-dark;
+    color: $nav-text;
+}
+
+.nav-link {
+        color: $nav-text;
+    }
+
+.jumbotron {
+    background-color: $jumbotronBackground;
+    text-align: center;
+    h1 {
+        padding-top: 75px;
+        padding-bottom: 25px;
+    }
+    h2 {
+        padding-bottom: 10px;
+    }
+}
