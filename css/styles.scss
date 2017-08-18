@@ -25,6 +25,7 @@ $carousel-item-height: 300px;
 .jumbotron {
     background-color: $jumbotronBackground;
     text-align: center;
+    height: 475px;
     .btn {
         background: $background-dark;
         color: $btncolor;
@@ -41,3 +42,27 @@ $carousel-item-height: 300px;
         padding-bottom: 10px;
     }
 }
+
+
+.view {
+    background: url("../img/scandic-sundsvall-city-restaurant-verket-10.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 475px;
+    position: relative;
+    top: -25px;
+}
+
+.view1 {
+    background: url("../img/photo-634069_1280.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 475px;
+    position: relative;
+    top: -25px;
+}
+
