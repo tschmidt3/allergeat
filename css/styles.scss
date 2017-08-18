@@ -5,14 +5,23 @@ $nav-text: #ffffff;
 $btncolor: #FFFFFF;
 $jumbotronBackground: #7CB342;
 
-// Height variables
-$carousel-item-height: 300px;
+@media (max-width:992px) {
 
-@mixin zero-margin($pad-up-dn, $pad-left-right) {
-	margin:0px auto;
-	padding: $pad-up-dn $pad-left-right;
+      .content-left
+      {
+        border:0px solid !important
+        }
+
+
+      }
+
+.mycontent  {
+    img {
+    margin-left: 20px;
+    margin-right: 10px;
+    }
+    padding-right: 20px;
 }
-
 .navbar-inverse {
     background-color: $background;
     color: $nav-text;
@@ -64,5 +73,9 @@ $carousel-item-height: 300px;
     min-height: 475px;
     position: relative;
     top: -25px;
+}
+
+.content-left {
+    border-right: 1px solid #333;
 }
 
